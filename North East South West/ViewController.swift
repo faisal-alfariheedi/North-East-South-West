@@ -14,6 +14,19 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
-
+    @IBAction func north(_ sender: UIButton) {
+    }
+    
+    @IBAction func east(_ sender: UIButton) {
+    }
+    
+    @IBAction func south(_ sender: UIButton) {
+    }
+    
+    @IBAction func west(_ sender: UIButton) {
+    }
+    
+    
+    
 }
 

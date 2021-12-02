@@ -16,6 +16,10 @@
 		3ADB2CBD2758E97D00C6D4D2 /* North_East_South_WestTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CBC2758E97D00C6D4D2 /* North_East_South_WestTests.swift */; };
 		3ADB2CC72758E97E00C6D4D2 /* North_East_South_WestUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CC62758E97E00C6D4D2 /* North_East_South_WestUITests.swift */; };
 		3ADB2CC92758E97E00C6D4D2 /* North_East_South_WestUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CC82758E97E00C6D4D2 /* North_East_South_WestUITestsLaunchTests.swift */; };
+		3ADB2CD62758ED4700C6D4D2 /* northViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CD52758ED4700C6D4D2 /* northViewController.swift */; };
+		3ADB2CD82758ED5200C6D4D2 /* eastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CD72758ED5200C6D4D2 /* eastViewController.swift */; };
+		3ADB2CDA2758ED5A00C6D4D2 /* westViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CD92758ED5A00C6D4D2 /* westViewController.swift */; };
+		3ADB2CDC2758ED6200C6D4D2 /* southViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3ADB2CDB2758ED6200C6D4D2 /* southViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +53,10 @@
 		3ADB2CC22758E97E00C6D4D2 /* North East South WestUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "North East South WestUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3ADB2CC62758E97E00C6D4D2 /* North_East_South_WestUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestUITests.swift; sourceTree = "<group>"; };
 		3ADB2CC82758E97E00C6D4D2 /* North_East_South_WestUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = North_East_South_WestUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		3ADB2CD52758ED4700C6D4D2 /* northViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = northViewController.swift; sourceTree = "<group>"; };
+		3ADB2CD72758ED5200C6D4D2 /* eastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eastViewController.swift; sourceTree = "<group>"; };
+		3ADB2CD92758ED5A00C6D4D2 /* westViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = westViewController.swift; sourceTree = "<group>"; };
+		3ADB2CDB2758ED6200C6D4D2 /* southViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = southViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,6 +111,10 @@
 				3ADB2CA72758E97C00C6D4D2 /* SceneDelegate.swift */,
 				3ADB2CA92758E97C00C6D4D2 /* ViewController.swift */,
 				3ADB2CAB2758E97C00C6D4D2 /* Main.storyboard */,
+				3ADB2CD52758ED4700C6D4D2 /* northViewController.swift */,
+				3ADB2CD72758ED5200C6D4D2 /* eastViewController.swift */,
+				3ADB2CD92758ED5A00C6D4D2 /* westViewController.swift */,
+				3ADB2CDB2758ED6200C6D4D2 /* southViewController.swift */,
 				3ADB2CAE2758E97D00C6D4D2 /* Assets.xcassets */,
 				3ADB2CB02758E97D00C6D4D2 /* LaunchScreen.storyboard */,
 				3ADB2CB32758E97D00C6D4D2 /* Info.plist */,
@@ -258,8 +270,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3ADB2CD82758ED5200C6D4D2 /* eastViewController.swift in Sources */,
+				3ADB2CDA2758ED5A00C6D4D2 /* westViewController.swift in Sources */,
 				3ADB2CAA2758E97C00C6D4D2 /* ViewController.swift in Sources */,
+				3ADB2CDC2758ED6200C6D4D2 /* southViewController.swift in Sources */,
 				3ADB2CA62758E97C00C6D4D2 /* AppDelegate.swift in Sources */,
+				3ADB2CD62758ED4700C6D4D2 /* northViewController.swift in Sources */,
 				3ADB2CA82758E97C00C6D4D2 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
